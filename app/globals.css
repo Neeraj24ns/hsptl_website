@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Unbounded:wght@200..900&display=swap');
+
+
 @import "tailwindcss";
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import 'remixicon/fonts/remixicon.css';
 
 :root {
   --prim-color: #b3f7ef;
