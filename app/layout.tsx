@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Merienda, Unbounded } from "next/font/google";
 import "./globals.css";
+import Navbar from "./Components/Navbar/Navbar";
 
 const unbounded = Unbounded({
   variable: "--font-unbounded",
@@ -39,7 +40,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${unbounded.variable} ${merienda.variable}`}
         >
-        
+        <Navbar/>
         
         {children}
       </body>
